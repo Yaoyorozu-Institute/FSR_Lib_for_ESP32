@@ -1,7 +1,7 @@
 # FSR_Lib_for_ESP32
 ESP32を用いて、感圧抵抗素子（FSR）から力（単位：gf）を読み取るライブラリです．
 データシートに示されていたグラフを指数関数近似しているため，正確な値は読み取れていません．
-また，このライブラリでは、FSR402(https://akizukidenshi.com/catalog/g/gP-04002/)公式計測データを元にしています．それ以外のFSRでは使えない可能性がありますので、ご注意ください．
+また，このライブラリでは、[FSR402](https://akizukidenshi.com/catalog/g/gP-04002/)の公式計測データを元にしています．それ以外のFSRでは使えない可能性がありますので、ご注意ください．
 
 ### 追加される関数：
 #### FSR::FSR(double R_kOhm, double V_milliVolt, uint8_t DIN)
